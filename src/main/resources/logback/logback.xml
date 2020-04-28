@@ -34,7 +34,7 @@
     </appender>
 
     <!--包测试环境默认为INFO-->
-    <logger name="com.cs.file.zip.controller" level="INFO" additivity="false">
+    <logger name="com.cs.file.zip" level="INFO" additivity="false">
         <appender-ref ref="FILE" />
         <appender-ref ref="STDOUT" />
     </logger>
